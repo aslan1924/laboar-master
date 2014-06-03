@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<widget xmlns = "http://www.w3.org/ns/widgets"
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id = "com.phonegap.example"
+        version = "1.0.0"
+        versionCode = "10" >
+        <gap:plugin name="org.apache.cordova.camera" version="0.2.9" />
+        <!-- versionCode is optional and Android only -->
 
-xmlns:gap = "http://phonegap.com/ns/1.0"
-id = "com.phonegap.example"
-version = "1.0.0"
-versionCode = "10" >
+        <preference name="phonegap-version" value="3.3.0" />
 
-<!-- versionCode is optional and Android only -->
+        <name>Music</name>
 
-<preference name="phonegap-version" value="3.1.0" />
+        <description>
+        An example for phonegap build docs. 
+        </description>
 
-<name>Back to the Future</name>
+        <author href="http://yoursite.com" email="aslan.boruakev@gmail.com">
+       Aslan Borukaev
+        </author>
 
-<description>
-Map Store. Useful tips. 
-</description>
-
-<author email="alisoldman@ya.ru">
-Tovstonog
-</author>
-
-</widget>
+    </widget>
